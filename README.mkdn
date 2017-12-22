@@ -1,7 +1,7 @@
-Nova Launcher
-=============
+Nova Launcher FREE
+==================
 
-This Launcher is used in DesolationRom with the permission from TeslaCoil Software
+The FREE version of this launcher is used with the permission of TeslaCoil Software
 ----------------------------------------------------------------------------------
 For any questions reguarding this, please feel free to contact TeslaCoil software 
 support at support@teslacoilsw.com
@@ -9,4 +9,3 @@ support at support@teslacoilsw.com
 Show support to Tesla Coil and buy the Prime version here:
 ----------------------------------------------------------
 https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher.prime&hl=en
-
