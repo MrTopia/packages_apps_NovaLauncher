@@ -1,0 +1,236 @@
+--------- beginning of main
+08-24 22:24:42.809  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3b9efe0
+08-24 22:24:42.995  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@96ee4d9
+08-24 22:24:43.003  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@55ff595
+08-24 22:24:43.764  8992  8992 D VRI[TermuxActivity]: visibilityChanged oldVisibility=true newVisibility=false
+08-24 22:24:43.798  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@240625848 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@bf9f99d
+08-24 22:24:43.803  8992  8992 D InsetsController: hide(ime(), fromIme=true)
+08-24 22:24:43.827  8992  8992 I ImeTracker: app.lawnchair:75ced09e: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+08-24 22:24:43.827  8992  8992 I ImeTracker: com.termux:d3c85379: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+08-24 22:24:43.828  8992  8992 I ImeTracker: com.termux:d3c85379: onFailed at PHASE_CLIENT_VIEW_SERVED
+08-24 22:24:52.092  8992 21301 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+08-24 22:24:52.094  8992 21303 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-24 22:24:52.096  8992 21303 I CCodec  : setting up 'default' as default (vendor) store
+08-24 22:24:52.099  8992 21303 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-24 22:24:52.099  8992 21303 D CCodecConfig: read media type: audio/vorbis
+08-24 22:24:52.101  8992 21303 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-24 22:24:52.101  8992 21303 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-24 22:24:52.102  8992 21303 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-24 22:24:52.102  8992 21303 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-24 22:24:52.102  8992 21303 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-24 22:24:52.102  8992 21303 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-24 22:24:52.102  8992 21303 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-24 22:24:52.103  8992 21303 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-24 22:24:52.103  8992 21303 D CCodecConfig: c2 config diff is Dict {
+08-24 22:24:52.103  8992 21303 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-24 22:24:52.103  8992 21303 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-24 22:24:52.103  8992 21303 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-24 22:24:52.103  8992 21303 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-24 22:24:52.103  8992 21303 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-24 22:24:52.103  8992 21303 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-24 22:24:52.103  8992 21303 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-24 22:24:52.103  8992 21303 D CCodecConfig: }
+08-24 22:24:52.105  8992 21303 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+08-24 22:24:52.105  8992 21303 D CCodecConfig: no c2 equivalents for durationUs
+08-24 22:24:52.105  8992 21303 D CCodecConfig: no c2 equivalents for track-id
+08-24 22:24:52.105  8992 21303 D CCodecConfig: no c2 equivalents for csd-1
+08-24 22:24:52.105  8992 21303 D CCodecConfig: no c2 equivalents for flags
+08-24 22:24:52.107  8992 21303 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+08-24 22:24:52.107  8992 21303 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-24 22:24:52.107  8992 21303 W Codec2Client: query -- param skipped: index = 1107298332.
+08-24 22:24:52.107  8992 21303 D CCodec  : encoding statistics level = 0
+08-24 22:24:52.107  8992 21303 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-24 22:24:52.107  8992 21303 D CCodec  :   int32_t bitrate = 96000
+08-24 22:24:52.107  8992 21303 D CCodec  :   int32_t channel-count = 1
+08-24 22:24:52.107  8992 21303 D CCodec  :   int32_t max-input-size = 32768
+08-24 22:24:52.107  8992 21303 D CCodec  :   string mime = "audio/vorbis"
+08-24 22:24:52.107  8992 21303 D CCodec  :   int32_t sample-rate = 44100
+08-24 22:24:52.107  8992 21303 D CCodec  : }
+08-24 22:24:52.107  8992 21303 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+08-24 22:24:52.107  8992 21303 D CCodec  :   int32_t channel-count = 1
+08-24 22:24:52.107  8992 21303 D CCodec  :   string mime = "audio/raw"
+08-24 22:24:52.107  8992 21303 D CCodec  :   int32_t sample-rate = 44100
+08-24 22:24:52.107  8992 21303 D CCodec  :   int32_t channel-mask = 1
+08-24 22:24:52.107  8992 21303 D CCodec  :   int32_t android._config-pcm-encoding = 2
+08-24 22:24:52.107  8992 21303 D CCodec  : }
+08-24 22:24:52.108  8992 21303 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-24 22:24:52.108  8992 21303 W Codec2Client: query -- param skipped: index = 1342179345.
+08-24 22:24:52.108  8992 21303 W Codec2Client: query -- param skipped: index = 2415921170.
+08-24 22:24:52.109  8992 21303 D CCodecBufferChannel: [c2.android.vorbis.decoder#360] Created input block pool with allocatorID 16 => poolID 20 - OK (0)
+08-24 22:24:52.111  8992  9717 D BufferPoolAccessor2.0: bufferpool2 0x74e8299e28 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-24 22:24:52.111  8992  9717 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x74e8299e28 cached: 0/0M, 0/0% in use; allocs: 7, 29% recycled; transfers: 24, 79% unfetched
+08-24 22:24:52.112  8992 21303 I CCodecBufferChannel: [c2.android.vorbis.decoder#360] Created output block pool with allocatorID 16 => poolID 72 - OK
+08-24 22:24:52.112  8992 21303 D CCodecBufferChannel: [c2.android.vorbis.decoder#360] Configured output block pool ids 72 => OK
+08-24 22:24:52.136  8992 21303 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-24 22:24:52.284  8992  8992 D InsetsController: show(ime(), fromIme=true)
+08-24 22:24:52.322  8992  8992 I ImeTracker: com.termux:9e017872: onShown
+08-24 22:24:52.387  8992  8992 I ImeTracker: com.termux:1605f40d: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+08-24 22:24:52.387  8992  8992 D InputMethodManager: showSoftInput() view=com.termux.view.TerminalView{1a84c28 VFED.V.L. .F...... 0,0-1064,1201 #7f080191 app:id/terminal_view aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+08-24 22:24:52.391  8992  8992 D InsetsController: show(ime(), fromIme=true)
+08-24 22:24:52.392  8992  8992 I ImeTracker: com.termux:1605f40d: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+08-24 22:24:57.109  8992  9716 D BufferPoolAccessor2.0: bufferpool2 0x747e291028 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-24 22:24:57.109  8992  9716 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+08-24 22:24:58.110  8992  9716 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+08-24 22:25:01.838  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@240625848 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@f45597e
+08-24 22:25:02.983  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@240625848 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@f45597e
+08-24 22:25:02.990  8992  8992 D InsetsController: hide(ime(), fromIme=true)
+08-24 22:25:03.018  8992  8992 I ImeTracker: app.lawnchair:4d2bc258: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+08-24 22:25:03.019  8992  8992 I ImeTracker: com.termux:95be971c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+08-24 22:25:03.020  8992  8992 I ImeTracker: com.termux:95be971c: onFailed at PHASE_CLIENT_VIEW_SERVED
+08-24 22:25:15.753  8992 21338 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+08-24 22:25:15.755  8992 21340 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-24 22:25:15.758  8992 21340 I CCodec  : setting up 'default' as default (vendor) store
+08-24 22:25:15.761  8992 21340 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-24 22:25:15.762  8992 21340 D CCodecConfig: read media type: audio/vorbis
+08-24 22:25:15.764  8992 21340 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-24 22:25:15.764  8992 21340 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-24 22:25:15.764  8992 21340 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-24 22:25:15.765  8992 21340 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-24 22:25:15.765  8992 21340 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-24 22:25:15.765  8992 21340 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-24 22:25:15.765  8992 21340 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-24 22:25:15.767  8992 21340 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-24 22:25:15.767  8992 21340 D CCodecConfig: c2 config diff is Dict {
+08-24 22:25:15.767  8992 21340 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-24 22:25:15.767  8992 21340 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-24 22:25:15.767  8992 21340 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-24 22:25:15.767  8992 21340 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-24 22:25:15.767  8992 21340 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-24 22:25:15.767  8992 21340 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-24 22:25:15.767  8992 21340 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-24 22:25:15.767  8992 21340 D CCodecConfig: }
+08-24 22:25:15.770  8992 21340 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+08-24 22:25:15.770  8992 21340 D CCodecConfig: no c2 equivalents for durationUs
+08-24 22:25:15.770  8992 21340 D CCodecConfig: no c2 equivalents for track-id
+08-24 22:25:15.770  8992 21340 D CCodecConfig: no c2 equivalents for csd-1
+08-24 22:25:15.770  8992 21340 D CCodecConfig: no c2 equivalents for flags
+08-24 22:25:15.771  8992 21340 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+08-24 22:25:15.771  8992 21340 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-24 22:25:15.771  8992 21340 W Codec2Client: query -- param skipped: index = 1107298332.
+08-24 22:25:15.771  8992 21340 D CCodec  : encoding statistics level = 0
+08-24 22:25:15.771  8992 21340 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-24 22:25:15.771  8992 21340 D CCodec  :   int32_t bitrate = 96000
+08-24 22:25:15.771  8992 21340 D CCodec  :   int32_t channel-count = 1
+08-24 22:25:15.771  8992 21340 D CCodec  :   int32_t max-input-size = 32768
+08-24 22:25:15.771  8992 21340 D CCodec  :   string mime = "audio/vorbis"
+08-24 22:25:15.771  8992 21340 D CCodec  :   int32_t sample-rate = 44100
+08-24 22:25:15.771  8992 21340 D CCodec  : }
+08-24 22:25:15.771  8992 21340 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+08-24 22:25:15.771  8992 21340 D CCodec  :   int32_t channel-count = 1
+08-24 22:25:15.771  8992 21340 D CCodec  :   string mime = "audio/raw"
+08-24 22:25:15.771  8992 21340 D CCodec  :   int32_t sample-rate = 44100
+08-24 22:25:15.771  8992 21340 D CCodec  :   int32_t channel-mask = 1
+08-24 22:25:15.771  8992 21340 D CCodec  :   int32_t android._config-pcm-encoding = 2
+08-24 22:25:15.771  8992 21340 D CCodec  : }
+08-24 22:25:15.771  8992 21340 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-24 22:25:15.772  8992 21340 W Codec2Client: query -- param skipped: index = 1342179345.
+08-24 22:25:15.772  8992 21340 W Codec2Client: query -- param skipped: index = 2415921170.
+08-24 22:25:15.773  8992 21340 D CCodecBufferChannel: [c2.android.vorbis.decoder#909] Created input block pool with allocatorID 16 => poolID 21 - OK (0)
+08-24 22:25:15.774  8992  9717 D BufferPoolAccessor2.0: bufferpool2 0x747e291028 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-24 22:25:15.774  8992  9717 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x747e291028 cached: 0/0M, 0/0% in use; allocs: 7, 29% recycled; transfers: 24, 79% unfetched
+08-24 22:25:15.774  8992 21340 I CCodecBufferChannel: [c2.android.vorbis.decoder#909] Created output block pool with allocatorID 16 => poolID 73 - OK
+08-24 22:25:15.774  8992 21340 D CCodecBufferChannel: [c2.android.vorbis.decoder#909] Configured output block pool ids 73 => OK
+08-24 22:25:15.792  8992 21340 D CCodecBufferChannel: [c2.android.vorbis.decoder#909] MediaCodec discarded an unknown buffer
+08-24 22:25:15.793  8992 21340 D CCodecBufferChannel: [c2.android.vorbis.decoder#909] MediaCodec discarded an unknown buffer
+08-24 22:25:15.795  8992 21343 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-24 22:25:15.950  8992  8992 D InsetsController: show(ime(), fromIme=true)
+08-24 22:25:16.013  8992  8992 I ImeTracker: com.termux:f442294: onShown
+08-24 22:25:16.043  8992  8992 I ImeTracker: com.termux:11161ed5: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+08-24 22:25:16.043  8992  8992 D InputMethodManager: showSoftInput() view=com.termux.view.TerminalView{1a84c28 VFED.V.L. .F...... 0,0-1064,1201 #7f080191 app:id/terminal_view aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+08-24 22:25:16.048  8992  8992 D InsetsController: show(ime(), fromIme=true)
+08-24 22:25:16.048  8992  8992 I ImeTracker: com.termux:11161ed5: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+08-24 22:25:18.520  8992  8992 W Bundle  : Key value expected String but value was of a different type.  The default value <null> was returned.
+08-24 22:25:18.520  8992  8992 W Bundle  : Attempt to cast generated internal exception:
+08-24 22:25:18.529  8992  8992 W Bundle  : Key value expected String but value was of a different type.  The default value <null> was returned.
+08-24 22:25:18.529  8992  8992 W Bundle  : Attempt to cast generated internal exception:
+08-24 22:25:18.551  8992  8992 W Bundle  : Key value expected String but value was of a different type.  The default value <null> was returned.
+08-24 22:25:18.551  8992  8992 W Bundle  : Attempt to cast generated internal exception:
+08-24 22:25:18.620  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.620  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.620  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.620  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.628  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.628  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.628  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.628  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.636  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.637  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.637  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.637  8992  8992 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-24 22:25:18.720  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@30f41aa
+08-24 22:25:18.941  8992  8992 W Bundle  : Key value expected String but value was of a different type.  The default value <null> was returned.
+08-24 22:25:18.941  8992  8992 W Bundle  : Attempt to cast generated internal exception:
+08-24 22:25:19.262  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e82ba52
+08-24 22:25:19.270  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@16e299e
+08-24 22:25:19.539  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c52cefe
+08-24 22:25:19.542  8992  9705 D HWUI    : endAllActiveAnimators on 0x74e51f0a00 (RippleDrawable) with handle 0x748098b3e0
+08-24 22:25:20.774  8992  9716 D BufferPoolAccessor2.0: bufferpool2 0x747e291a28 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-24 22:25:20.774  8992  9716 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+08-24 22:25:21.774  8992  9716 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+08-24 22:25:25.237  8992  8992 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@240625848 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@a33a86a
+08-24 22:25:25.240  8992  8992 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+08-24 22:25:25.241  8992  8992 D InsetsController: hide(ime(), fromIme=true)
+08-24 22:25:25.280  8992  8992 I ImeTracker: app.lawnchair:ab1c9d40: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+08-24 22:25:25.280  8992  8992 I ImeTracker: com.termux:c1748db: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+08-24 22:25:25.281  8992  8992 I ImeTracker: com.termux:c1748db: onFailed at PHASE_CLIENT_VIEW_SERVED
+08-24 22:25:32.215  8992 21369 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+08-24 22:25:32.216  8992 21371 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-24 22:25:32.219  8992 21371 I CCodec  : setting up 'default' as default (vendor) store
+08-24 22:25:32.222  8992 21371 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-24 22:25:32.223  8992 21371 D CCodecConfig: read media type: audio/vorbis
+08-24 22:25:32.226  8992 21371 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-24 22:25:32.226  8992 21371 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-24 22:25:32.226  8992 21371 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-24 22:25:32.226  8992 21371 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-24 22:25:32.226  8992 21371 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-24 22:25:32.227  8992 21371 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-24 22:25:32.227  8992 21371 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-24 22:25:32.228  8992 21371 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-24 22:25:32.229  8992 21371 D CCodecConfig: c2 config diff is Dict {
+08-24 22:25:32.229  8992 21371 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-24 22:25:32.229  8992 21371 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-24 22:25:32.229  8992 21371 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-24 22:25:32.229  8992 21371 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-24 22:25:32.229  8992 21371 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-24 22:25:32.229  8992 21371 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-24 22:25:32.229  8992 21371 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-24 22:25:32.229  8992 21371 D CCodecConfig: }
+08-24 22:25:32.238  8992 21371 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+08-24 22:25:32.238  8992 21371 D CCodecConfig: no c2 equivalents for durationUs
+08-24 22:25:32.238  8992 21371 D CCodecConfig: no c2 equivalents for track-id
+08-24 22:25:32.238  8992 21371 D CCodecConfig: no c2 equivalents for csd-1
+08-24 22:25:32.238  8992 21371 D CCodecConfig: no c2 equivalents for flags
+08-24 22:25:32.239  8992 21371 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+08-24 22:25:32.239  8992 21371 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-24 22:25:32.240  8992 21371 W Codec2Client: query -- param skipped: index = 1107298332.
+08-24 22:25:32.240  8992 21371 D CCodec  : encoding statistics level = 0
+08-24 22:25:32.241  8992 21371 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-24 22:25:32.241  8992 21371 D CCodec  :   int32_t bitrate = 96000
+08-24 22:25:32.241  8992 21371 D CCodec  :   int32_t channel-count = 1
+08-24 22:25:32.241  8992 21371 D CCodec  :   int32_t max-input-size = 32768
+08-24 22:25:32.241  8992 21371 D CCodec  :   string mime = "audio/vorbis"
+08-24 22:25:32.241  8992 21371 D CCodec  :   int32_t sample-rate = 44100
+08-24 22:25:32.241  8992 21371 D CCodec  : }
+08-24 22:25:32.241  8992 21371 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+08-24 22:25:32.241  8992 21371 D CCodec  :   int32_t channel-count = 1
+08-24 22:25:32.241  8992 21371 D CCodec  :   string mime = "audio/raw"
+08-24 22:25:32.241  8992 21371 D CCodec  :   int32_t sample-rate = 44100
+08-24 22:25:32.241  8992 21371 D CCodec  :   int32_t channel-mask = 1
+08-24 22:25:32.241  8992 21371 D CCodec  :   int32_t android._config-pcm-encoding = 2
+08-24 22:25:32.241  8992 21371 D CCodec  : }
+08-24 22:25:32.241  8992 21371 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+08-24 22:25:32.241  8992 21371 W Codec2Client: query -- param skipped: index = 1342179345.
+08-24 22:25:32.242  8992 21371 W Codec2Client: query -- param skipped: index = 2415921170.
+08-24 22:25:32.243  8992 21371 D CCodecBufferChannel: [c2.android.vorbis.decoder#967] Created input block pool with allocatorID 16 => poolID 22 - OK (0)
+08-24 22:25:32.245  8992  9717 D BufferPoolAccessor2.0: bufferpool2 0x747e291a28 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/24 (fetch/transfer)
+08-24 22:25:32.245  8992  9717 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x747e291a28 cached: 0/0M, 0/0% in use; allocs: 7, 29% recycled; transfers: 24, 79% unfetched
+08-24 22:25:32.245  8992 21371 I CCodecBufferChannel: [c2.android.vorbis.decoder#967] Created output block pool with allocatorID 16 => poolID 74 - OK
+08-24 22:25:32.245  8992 21371 D CCodecBufferChannel: [c2.android.vorbis.decoder#967] Configured output block pool ids 74 => OK
+08-24 22:25:32.267  8992 21371 D CCodecBufferChannel: [c2.android.vorbis.decoder#967] MediaCodec discarded an unknown buffer
+08-24 22:25:32.269  8992 21371 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-24 22:25:32.417  8992  8992 D InsetsController: show(ime(), fromIme=true)
+08-24 22:25:32.439  8992  8992 I ImeTracker: com.termux:dfa029e0: onShown
+08-24 22:25:32.506  8992  8992 I ImeTracker: com.termux:b192fad4: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+08-24 22:25:32.507  8992  8992 D InputMethodManager: showSoftInput() view=com.termux.view.TerminalView{1a84c28 VFED.V.L. .F...... 0,0-1064,1201 #7f080191 app:id/terminal_view aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+08-24 22:25:32.511  8992  8992 D InsetsController: show(ime(), fromIme=true)
+08-24 22:25:32.512  8992  8992 I ImeTracker: com.termux:b192fad4: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
